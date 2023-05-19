@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon" href="drem.png" type="image/png"></link>
+</head>
+<body bgcolor=#E0FFFF>
+    <h1 align="center">Dor&Nob Shop</h1>
+    <p><strong>¡Bienvendo!</strong> En ésta tienda ofrecemos artículos de todo tipo
+        con la temática de Doraemon. Puedes rellenar los siguientes formualrios para 
+        realizar una compra. </p>
+    <br>
+    <h3 align="center">Nuestros productos</h3>
+    <table border="2" cellpadding="20px" align="center" >
+        <thead>
+            <tr>
+                <th>Producto</th>
+                <th>Foto</th>
+                <th>Producto</th>
+                <th>Foto</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Ropa</td>
+                <td><img src="ropa.jpg" alt="Blusa" width="150px"></img></td>
+                <td>Peluches</td>
+                <td><img src="pel.jpg" alt="Peluche" width="150px"></img></td>
+            </tr>
+            <tr>
+                <td>Accesorios</td>
+                <td><img src="acc.png" alt="Blusa" width="150px"></img></td>
+                <td>Bolsas</td>
+                <td><img src="bol.jpg" alt="Peluche" width="150px"></img></td>
+            </tr>
+            <tr>
+                <td>Cocina</td>
+                <td><img src="coc.jpg" alt="Blusa" width="150px"></img></td>
+                <td>Lámparas</td>
+                <td><img src="lam.jpg" alt="Peluche" width="150px"></img></td>
+            </tr>
+            <tr>
+                <td>Stickers y Pines</td>
+                <td><img src="pin.jpg" alt="Blusa" width="150px"></img></td>
+                <td>Papelería</td>
+                <td><img src="pap.jpg" alt="Peluche" width="150px"></img></td>
+            </tr>
+        </tbody>
+    </table>
+    <br><br>
+    <h3>  Realizar la compra</h3>
+    <form>
+        <fieldset>
+            <legend>   Comprador:   </legend>
+            <label><br>Nombre: 
+                <input type="text" placeholder="nombre"/>
+            </label>
+            <label>  Apellido:  
+                <input type="text" placeholder="apellido"/>
+            </label>
+            <label><br><br>Correo electrónico: 
+                <input type="email" placeholder="correoelectronico@email.com"/>
+            </label>
+            <label><br><br>Número telefónico: 
+                <input type="tel" placeholder="5505050505"/>
+            </label>
+            <label><br><br>Domicilio: 
+                <input type="text" placeholder="Calle, Número, (Edificio, Departamento, etc.), Colonia, C. P " size="70"/>
+            </label>
+            <br><br>Edad:
+            <label> <br>
+                <select size="5"> productos
+                    <option>+60</option>
+                    <option>50-60</option>
+                    <option>40-50</option>
+                    <option>30-40</option>
+                    <option>29-30</option>
+                    <option>-18</option>
+                </select>
+            </label>
+        </fieldset>
+    </form>
+    <br>
+    <form>
+        <fieldset>
+            <legend>   Producto:   </legend>
+            <label><br>Elige tu producto: 
+                <select> productos
+                    <option>Ropa</option>
+                    <option>Peluches</option>
+                    <option>Accesorios</option>
+                    <option>Bolsas</option>
+                    <option>Cocina</option>
+                    <option>Lámparas</option>
+                    <option>Stickers y pines</option>
+                    <option>Papelería</option>
+                </select>
+            </label>
+            <br><br>
+            <label>Piezas
+                <input type="text" size="3" placeholder="1"/>
+            </label>
+            <br><br>
+            <label>Fecha de entrega
+                <input type="date"/>
+            </label>
+            <br><br>
+            <label>Forma de pago: 
+                <br>
+                <input type="radio" value="rwe1" name="r"/>Tarjeta de crédito
+                <br>
+                <input type="radio" value="esf2" name="r"/>Tarjeta de débito
+                <br>
+                <input type="radio" value="adf3" name="r"/>Transferencia SPEI
+                <br>
+                <input type="radio" value="aff4" name="r"/>Efectivo: en tiendas o bancos (Oxxo, HSBC, 7-Eleven, K, etc.)
+            </label>
+            <br><br>
+            <label>Especificaciones sobre la entrega: <br>
+                <textarea cols="50" rows="3" minlength="30">Escribe algo aquí</textarea>
+            </label>
+            <br><br>
+            <label><input type="submit" value="Teminar la compra"/></label>
+            <label><input type="reset" value="Cancelar"/></label>
+        </fieldset>
+    </form>
+</body>
+</html>
